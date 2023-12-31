@@ -1,0 +1,34 @@
+* {
+  font-family: "Londrina Solid", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+html body {
+  background-image: url(../img/backwallTIDR.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+html body img {
+  width: 25%;
+  position: relative;
+  top: 0;
+}
+html body form {
+  display: flex;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: rgba(134, 120, 96, 0.4);
+}
+html body form .connexionEtMDP {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}/*# sourceMappingURL=login.css.map */

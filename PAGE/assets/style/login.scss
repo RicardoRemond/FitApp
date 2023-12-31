@@ -1,0 +1,40 @@
+@mixin myFont {
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+* {
+    @include myFont();
+}
+
+html {
+    height: 100%;
+
+    body {
+        background-image: url(../img/backwallTIDR.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+
+        img {
+            width: 25%;
+            position: relative;
+            top: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            margin: 0 auto;
+            border-radius: 2rem;
+            padding: 2rem;
+            background-color: #86786066;
+
+            .connexionEtMDP {
+                width: fit-content;
+                margin: 0 auto;
+            }
+        }
+    }
+}

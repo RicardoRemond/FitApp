@@ -1,0 +1,49 @@
+@mixin myFont {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 1.2rem;
+}
+
+* {
+    @include myFont();
+}
+
+html {
+    height: 100%;
+
+    body {
+        background-image: url(../img/backwallTIDR.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+
+        img {
+            left: 34%;
+            width: 25%;
+            position: relative;
+            top: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            margin: 0 auto;
+            border-radius: 2rem;
+            padding: 2rem;
+            background-color: #86786066;
+
+            h2 {
+                font-size: 1.4rem;
+                margin: 0;
+                text-align: center;
+            }
+
+            input {
+                border-radius: .5rem;
+                border: none;
+            }
+
+        }
+    }
+}
