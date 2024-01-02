@@ -15,6 +15,7 @@
         <ul>
             <li><a href="login.php">Connexion</a></li>
             <li><a href="register.php">Inscription</a></li>
+            <li><a href="profil.php">Profil</a></li>
             <!-- Ajoutez d'autres liens vers les fonctionnalités principales de votre application -->
         </ul>
     </nav>

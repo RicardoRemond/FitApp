@@ -23,3 +23,19 @@
         </ul>
     </nav>
 </header>
+
+<style>
+    header {
+        background-color: blue;
+        border: solid;
+        border-radius: 1rem;
+
+        nav {
+            ul {
+                li {}
+
+                li::marker {}
+            }
+        }
+    }
+</style>
