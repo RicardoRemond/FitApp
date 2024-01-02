@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <img src="./assets/img/logoTIDR.png" alt="Logo App">
 
     <form action="register_process.php" method="POST">
